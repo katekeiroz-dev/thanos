@@ -274,7 +274,7 @@ replace (
 	// Override due to https://github.com/weaveworks/common/issues/239.
 	// CVE-2026-84445 is fixed by a backport of grpc/grpc-go#9365 on v1.57.2.
 	// Newer grpc releases are incompatible with this Thanos branch.
-	google.golang.org/grpc => github.com/katekeiroz-dev/grpc-go v1.57.2-patch-1
+	google.golang.org/grpc => github.com/stolostron/grpc-go v1.57.2-patch-1
 
 	// Overriding to use latest commit.
 	gopkg.in/alecthomas/kingpin.v2 => github.com/alecthomas/kingpin v1.3.8-0.20210301060133-17f40c25f497
